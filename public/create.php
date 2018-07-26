@@ -15,7 +15,7 @@ if(!isDev()){
 <div class="g2"><?php require 'inc/left.php';?></div>
 <div class="g8">
 <h1>Criar post</h1>
-<p><a href="/?time=<?php print time()?>">Posts</a></p>
+<p><a href="index.php?time=<?php print time()?>">Posts</a></p>
 <?php
 $title=@$_GET['title'];
 $filename='../posts/'.$title;

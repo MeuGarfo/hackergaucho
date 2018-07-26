@@ -30,7 +30,7 @@ $content=trim($content);
 <?php print $data;?>
 <?php print nl2br($content);?>
 <br><br><p>
-<a href="/?time=<?php print time();?>">Posts</a>
+<a href="index.php?time=<?php print time();?>">Posts</a>
 <?php
 require 'inc/isDev.php';
 if($title<>'Erro 404' && isDev()){
