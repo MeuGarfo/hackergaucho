@@ -34,7 +34,7 @@ if(count($posts)>=1){
     print '<ul class="lista" id="myUL">';
     foreach($posts as $postKey => $postValue){
         print '<li>';
-        print '<a href="post.php?title='.urlencode($postValue).'">';
+        print '<a href="post.php?title='.urlencode($postValue).'&time='.time().'">';
         print ucfirst($postValue);
         print '</a>';
         print '</li>';
