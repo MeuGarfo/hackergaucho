@@ -6,9 +6,8 @@ if(!isDev()){
 ?>
 <!DOCTYPE html>
 <head lang="pt-br">
-<meta charset="utf-8">
 <title>Criar post</title>
-<link rel="stylesheet" href="/css/master.css">
+<?php require 'inc/header.php';?>
 </head>
 <body>
 <div class="c">

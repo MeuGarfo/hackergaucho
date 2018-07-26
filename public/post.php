@@ -17,10 +17,9 @@ $content=implode(PHP_EOL,$content);
 $content=trim($content);
 ?>
 <!DOCTYPE html>
-<head>
-<meta charset="utf-8">
+<head lang="pt-br">
 <title><?php print $ucTitle;?></title>
-<link rel="stylesheet" href="/css/master.css">
+<?php require 'inc/header.php';?>
 </head>
 <body>
 <div class="c">
@@ -31,7 +30,7 @@ $content=trim($content);
 <?php print $data;?>
 <?php print nl2br($content);?>
 <br><br><p>
-<a href="/">Posts</a>
+<a href="/?time=<?php print time();?>">Posts</a>
 <?php
 require 'inc/isDev.php';
 if($title<>'Erro 404' && isDev()){

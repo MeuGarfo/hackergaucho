@@ -44,6 +44,10 @@ h1,h2{
     margin-bottom:0.05em;
 }
 
+img{
+    max-width:100%;
+}
+
 input[type=email],input[type=password],input[type=text],select,textarea{
     display:block;
     width:calc(100% - 2px);

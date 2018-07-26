@@ -2,9 +2,9 @@
 //die(var_dump($_SERVER["REQUEST_URI"]));
 ?>
 <!DOCTYPE html>
-<head>
+<head lang="pt-br">
 <title>Posts</title>
-<link rel="stylesheet" href="/css/master.css">
+<?php require 'inc/header.php';?>
 </head>
 <body>
 <div class="c">
@@ -28,7 +28,9 @@ foreach($posts as $postKey=>$postName){
 }
 asort($posts);
 if(count($posts)>=1){
-    print '<p><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar post"></p>';
+    print '<script>';
+    print 'document.write(\'<p><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar post"></p>\');';
+    print '</script>';
     print '<ul class="lista" id="myUL">';
     foreach($posts as $postKey => $postValue){
         print '<li>';
