@@ -29,11 +29,11 @@ if(isset($_GET['update'])){
     file_put_contents($filename,$content);
 }
 ?>
-<form action="create.php" method="get">
+<form action="create.php" method="get" lang="pt-br">
 <label>Titulo</label>
 <input type="text" name="title" value="<?php print @$title;?>">
 <label>Conteúdo</label>
-<textarea name="content" rows="20"><?php print @$content;?></textarea>
+<textarea name="content" rows="20" lang="pt-br"><?php print @$content;?></textarea>
 <?php
 if(strlen($title)>=1){
     file_put_contents($filename,$content);
