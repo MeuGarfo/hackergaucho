@@ -66,6 +66,10 @@ legend{
     font-weight: bold;
 }
 
+li,ul{
+    margin-left:-1.5em;
+}
+
 p{/*4*/
     font-size:1.11em;
     margin-bottom:0.5em;
@@ -74,10 +78,6 @@ p{/*4*/
 small{/*2*/
     color:gray;
     font-size:0.8em;
-}
-
-ul{
-    margin-left:-1.5em;
 }
 
 /*fix by http://browserhacks.com*/

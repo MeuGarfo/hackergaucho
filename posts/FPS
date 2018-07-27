@@ -2,5 +2,10 @@
 
 - Monitores = 59, 60, ou 120 hertz
 - Animações = 12 desenhos por segundo em 24 FPS com 24 desenhos nos movimentos rápidos
-- Filmes = 24 FPS
-- Filmes novos (desde Hobbit, 2012) = 48 FPS
+- Filmes = 24 FPS (41.6ms)
+- Filmes novos (desde Hobbit, 2012) = 48 FPS (20.8ms)
+- Timers aninhados (HTML5) = 250 FPS (4ms)
+
+<b>Links</b>
+- https://github.com/pinkienort/AutoScrolling/issues/2
+- https://html.spec.whatwg.org/multipage/timers-and-user-prompts.html
