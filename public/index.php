@@ -31,7 +31,7 @@ if(count($posts)>=1){
     print '<script>';
     print 'document.write(\'<p><input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar post"></p>\');';
     print '</script>';
-    print '<ul class="lista" id="myUL">';
+    print '<ol class="lista" id="myUL">';
     foreach($posts as $postKey => $postValue){
         print '<li>';
         print '<a href="post.php?title='.urlencode($postValue).'&time='.time().'">';
@@ -39,7 +39,7 @@ if(count($posts)>=1){
         print '</a>';
         print '</li>';
     }
-    print '</ul>';
+    print '</ol>';
 }else{
     print '<p>Nenhum post encontrado</p>';
 }
