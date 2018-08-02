@@ -1,0 +1,8 @@
+31 de julho de 2018
+
+Hoje devo iniciar o projeto http://guestbook.local, ele deve ter os seguintes recursos:
+- Home page com as últimas mensagens de todos usuários
+- Signup com confirmação de email
+- Signin com recuperação de senha
+- Caixa de criação de mensagem
+- Link para cada postagem individual

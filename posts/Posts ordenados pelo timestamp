@@ -1,0 +1,9 @@
+28 de julho de 2018
+
+Nos metadados do sistema de arquivos ext4 apenas a data de abertura e de atualização do arquivo são registrados, a alternativa para a criação de um blog estático é colocar a data de criação do artigo como prefixo no nome do arquivo.
+
+O glob e o fnmatch do PHP parecem ter suporte a wildcard e Regex, por isso deve ser fácil adicionar um token e isolar o timestamp do resto do nome do arquivo para atualizar ou apagar os artigos posteriormente sem saber qual é a sua data de criação exata.
+
+Links:
+- http://php.net/manual/en/function.glob.php
+- http://php.net/manual/en/function.fnmatch.php
